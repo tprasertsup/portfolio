@@ -1,0 +1,152 @@
+html * {
+    font-weight: 400;
+    color: #000;
+    font-family: 'Montserrat', serif;
+    text-align: left;
+    line-height: 150%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.project-title {
+    font-size: 4rem;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 100px;
+    margin-top: 70px;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.project-section {
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 100px;
+}
+
+.project-section>h2 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.project-section>h3 {
+    font-size: 1.75rem;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    font-style: italic;
+}
+
+.project-section>h4 {
+    font-size: 1.3px;
+    margin-bottom: 30px;
+}
+
+.project-section li {
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.project-section b {
+    font-weight: 800 !important;
+}
+
+.project-section .one-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    margin-bottom: 30px;
+}
+
+.project-section iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 600px;
+    margin-bottom: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.1)
+}
+
+.project-section .emphaty-map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+.project-section .frame {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.project-section .frame>img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.project-section frame>h3 {
+    text-align: center !important;
+}
+
+.project-section .btn {
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-section .modal-dialog-full-width {
+    max-width: 90% !important;
+    width: 90%;
+}
+
+.project-section div {
+    margin-bottom: 30px;
+}
+
+.project-section .modal-open {
+    overflow: scroll;
+}
+
+.project-section .img-full-width {
+    margin: 0 0 0 0;
+    width: 100%;
+}
+
+.project-section .img-large-caption {
+    text-align: center !important;
+    font-size: 35px;
+}
+
+.card-img {
+    width: 30%;
+}
+
+.card-title {
+    font-size: 35px;
+}
+
+.fa-nav-link {
+    color: gray;
+}
+
+.fa-nav-link:hover,
+.fa-nav-link:active {
+    color: black;
+}
+
+.nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.card {
+    margin-bottom: 100px;
+}
