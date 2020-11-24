@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Nine Prasertsup
+    </title>
+    <!-- Font Awesome icons (free version)-->
+    <script src="abtesting/https://kit.fontawesome.com/8d2858f9b4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="index.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <!-- Bootstrap core JS-->
+    <script src="abtesting/https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="abtesting/https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="abtesting/scripts.js"></script>
+</head>
+<title>
+    Nine Prasertsup
+</title>
+
+
+<!------ Include the above in your HEAD tag ---------->
+
+<body>
+    <!-- Navigation Bar -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white pt-5 pb-5" id="navbar">
+            <a class="navbar-brand">Nine Prasertsup</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse mb-0 align-middle " id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resume.pdf" target="_blank">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--Project content-->
+        <div class="row">
+
+            <!-- Making the websites-->
+            <div class="col-lg-10 col-md-12">
+                <h1 class="project-title">A/B Testing</h1>
+                <div class="project-section" id="make-websites">
+                    <h2>Making the websites</h2>
+                    <div>
+                        <p> Below is the link and the screenshots of the two versions of my website: baseline(A) and variant(B).
+                        </p>
+                    </div>
+                    <div class="text-center">
+                        <a href="https://obscure-forest-11671.herokuapp.com/" class="btn btn-primary btn-lg active" role="button" target="_blank" aria-pressed="true">Link to the website</a>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6">
+                                    <p class="img-large-caption">Version A</p>
+                                    <img class="one-img" src="abtesting/cact-I-cact-you-cact-us-A.png" alt="website version A" />
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <p class="img-large-caption">Version B</p>
+                                    <img class="one-img" src="abtesting/cact-I-cact-you-cact-us-B.png" alt="website version B" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Creating Hypotheses for Statistical Tests-->
+                <div class="project-section" id="create-hypotheses">
+                    <h2>Creating Hypotheses for Statistical Tests
+                    </h2>
+                    <p>We will run statistical tests for these two metrics: Time to Completion and Return Rate.</p>
+                    <h3 id="time-to-completion">Time to Completion</h3>
+                    <p>In this case, we will measure the time each user uses for ordering cacti. Since we believe that the website's variant(B) design will improve user experience, i.e., decreasing the time users spend on the website, we achieve the following
+                        null and alternative hypotheses.</p>
+                    <p><b>Null hypothesis:</b> Both versions of the website will have the same ordering time.</p>
+                    <p><b>Alternative hypothesis:</b> The variant(B) version of the website will decrease the amount of time needed to complete the order.
+                    </p>
+                    <h3 id="return-rate">Return Rate</h3>
+                    <p>In this case, we will measure the number of users who revisit the ordering page after they checkout. Since we believe that the website's variant(B) design will improve user experience, we assume that users are more likely to return
+                        to the ordering page if they visit version B. Therefore, null and alternative hypotheses for the return rate are below.</p>
+                    <p><b>Null hypothesis:</b> Both versions of the website will have the same return rate.</p>
+                    <p><b>Alternative hypothesis:</b> The variant(B) version of the website will increase the return rate.
+                </div>
+
+                <!-- Collecting Data and Applying Scripts-->
+                <div class="project-section text-center" id="collect-data">
+                    <h2>Collecting Data and Applying Scripts</h2>
+                    <p>For this A/B test, I asks people, both in the UIUX class and outside the class, to perform the task of filling the cart with at least $150 of catci/succelents. Thus, there was a wide range of users - from teenagers to middle-aged people,
+                        those with programming knowledge to non-CS concentrators, and people interested in cacti to those who do not. After two days of data collection, 44 people had used the website. 26 of them saw version A, while the other 18 saw version
+                        B.
+                    </p>
+                </div>
+                <!-- Conclusions and Takeaways-->
+                <div class="project-section" id="conclusion">
+                    <h2>Conclusions and Takeaways</h2>
+                    <p>Below is the infographic describing the results and conclusions from each statistical test.
+                    </p>
+                    <img class="one-img" src="abtesting/result-infographic.png" alt="Infographic of results" />
+                    <h3 id="takeaways">Takeaways</h3>
+                    <p>The results do not show any statistical significance, possibly because</p>
+                    <ol>
+                        <li>The sample size is too small (~40 users in total), so a few edge cases can greatly impact the results.
+                        </li>
+                        <li>The users are varied in ages, interests, and knowledge. They were not assigned to see a specific version of the website. Thus, middle-aged people, who tend to spend more on reading a website, might all see version A, for example.</li>
+                        <li>Most users did the task as they were asked to. Hence, they might focus only on completing the task, and the experiment was not valid and practical. </li>
+                    </ol>
+                    <p>Since there is no statistical difference between these two designs, we cannot draw any conclusion about design principle without having more data.</p>
+                </div>
+            </div>
+            <div class=".d-none .d-lg-block col-lg-2">
+                <div class="position-fixed">
+                    <nav class="nav nav-st flex-column">
+                        <a class="nav-link" href="#navbar">A/B Testing</a>
+                        <a class="nav-link ml-3" href="#make-websites">Making the websites</a>
+                        <a class="nav-link ml-3" href="#create-hypotheses">Creating hypotheses</a>
+                        <a class="nav-link ml-5" href="#time-to-completion">Time to completion</a>
+                        <a class="nav-link ml-5" href="#return-rate">Return rate</a>
+                        <a class="nav-link ml-3" href="#collect-data">Collecting data</a>
+                        <a class="nav-link ml-3" href="#conclusion">Conclusions</a>
+                        <a class="nav-link ml-5" href="#takeaways">Takeaways</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <nav class="navbar navbar-expand navbar-light bg-white pt-5 pb-5">
+        <div class=" navbar-collapse mb-0 align-middle" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto ">
+                <li class="nav-item ">
+                    <a class="nav-link " href="about.html">About</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link " href="resume.pdf " target="_blank ">Resume</a>
+                </li>
+                <li>
+                    <a class="nav-link " href="mailto:thananun.pra@gmail.com " target="_blank "><i
+                            class="far fa-envelope fa-nav-link "></i></a>
+
+                </li>
+                <li>
+                    <a class="nav-link " href="https://www.linkedin.com/in/thananun-prasertsup/ " target="_blank "><i
+                            class="fab fa-linkedin-in fa-nav-link "></i></a>
+
+                </li>
+                <li>
+                    <a class="nav-link " href="https://github.com/tprasertsup " target="_blank "><i
+                            class="fab fa-github fa-nav-link "></i></a>
+
+                </li>
+            </ul>
+        </div>
+    </nav>
+    </div>
+</body>
+
+
+</html>
