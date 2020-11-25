@@ -1,9 +1,8 @@
 html * {
     font-weight: 400;
     color: #000;
-    font-family: 'Montserrat', serif;
+    font-family: 'Open Sans', sans-serif;
     text-align: left;
-    /* line-height: 150%; */
 }
 
 html {
@@ -19,6 +18,16 @@ ul {
     line-height: 150%;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+.btn {
+    font-family: 'Montserrat', serif !important;
+    /* font-weight: 500 !important; */
+}
+
 .project-title {
     font-size: 4rem;
     font-weight: 400;
@@ -28,6 +37,7 @@ ul {
     text-align: center;
     padding-left: 70px;
     padding-right: 70px;
+    font-family: 'Montserrat', serif;
 }
 
 .project-section {
@@ -41,6 +51,7 @@ ul {
     font-weight: 600;
     text-align: left;
     margin-bottom: 30px;
+    font-family: 'Montserrat', serif;
 }
 
 .project-section>h3 {
@@ -49,11 +60,13 @@ ul {
     margin-bottom: 30px;
     margin-top: 40px;
     font-style: italic;
+    font-family: 'Montserrat', serif;
 }
 
 .project-section>h4 {
     font-size: 1.3px;
     margin-bottom: 30px;
+    font-family: 'Montserrat', serif;
 }
 
 .project-section li {
@@ -168,4 +181,8 @@ ul {
 .small-nav .nav-link.active {
     background-color: gray !important;
     color: white !important;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat', serif;
 }
