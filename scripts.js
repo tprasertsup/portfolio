@@ -1,5 +1,7 @@
 ($(document).ready(function() {
 
+    $('body').scrollspy({ target: '.small-nav' })
+
 
     $("div[id^='original']").each(function() {
 

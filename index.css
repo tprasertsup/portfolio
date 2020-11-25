@@ -3,11 +3,20 @@ html * {
     color: #000;
     font-family: 'Montserrat', serif;
     text-align: left;
-    line-height: 150%;
+    /* line-height: 150%; */
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+}
+
+p,
+ul {
+    line-height: 150%;
 }
 
 .project-title {
@@ -56,7 +65,7 @@ html {
     font-weight: 800 !important;
 }
 
-.project-section .one-img {
+.one-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -149,4 +158,14 @@ html {
 
 .card {
     margin-bottom: 100px;
+}
+
+.small-nav {
+    font-size: 12px;
+    line-height: 100% !important;
+}
+
+.small-nav .nav-link.active {
+    background-color: gray !important;
+    color: white !important;
 }
