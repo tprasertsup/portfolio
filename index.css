@@ -11,11 +11,12 @@ html {
 
 body {
     position: relative;
+    line-height: 1.8 !important;
 }
 
 p,
 ul {
-    line-height: 150%;
+    line-height: 1.8 !important;
 }
 
 h1,
@@ -25,7 +26,7 @@ h4,
 h5,
 .btn {
     font-family: 'Montserrat', serif !important;
-    /* font-weight: 500 !important; */
+    line-height: 1.8 !important;
 }
 
 .project-title {
@@ -44,6 +45,7 @@ h5,
     font-size: 1rem;
     color: black;
     margin-bottom: 100px;
+    line-height: 1.8 !important;
 }
 
 .project-section>h2 {
@@ -155,6 +157,12 @@ h5,
     font-size: 35px;
 }
 
+.card-text {
+    font-size: 20px;
+    line-height: 1.5 !important;
+    margin-bottom: 30px;
+}
+
 .fa-nav-link {
     color: gray;
 }
@@ -196,9 +204,3 @@ h5,
     box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, 0.6);
     transition: all 200ms ease-in-out;
 }
-
-
-/* .fit-window-modal {
-    margin: 0 0 0 0 !important;
-    width: 100% !important;
-} */
