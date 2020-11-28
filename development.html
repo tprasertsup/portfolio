@@ -34,7 +34,7 @@
 <body>
     <!-- Navigation Bar -->
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white pt-5 pb-5" id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent pt-5 pb-5" id="navbar">
             <a class="navbar-brand" href="home.html">Nine Prasertsup</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -58,42 +58,43 @@
         <!--Project content-->
         <div class="row pl-3 pr-3">
             <div class="col-lg-10 col-md-12">
-                <div data-spy="scroll" data-target="#navbar-example3" data-offset="20" id="project">
-                    <h1 class="project-title">Development</h1>
 
-                    <div class="project-section">
+                <h1 class="project-title">Development</h1>
+                <div class="project-section">
+                    <blockquote class="blockquote">
                         <p class="mb-5">The assignment is to create a one-page application using React framework. I choose to create a online shopping store from
                             <a href=" https://fakestoreapi.com/ " target="_blank ">https://fakestoreapi.com/</a>. In this shopping website, users are able to add items in to the cart and see the total amount and price. They can also checkout. To see only
                             items in some categories or in some particular order, users can filter by category and price range and sort items by title or price.
                         </p>
-                        <img class="one-img" src="img/home/development.png" alt="Development website" />
+                    </blockquote>
+                    <img class="one-img" src="img/home/development.png" alt="Development website" />
+                </div>
+                <div class="project-section">
+                    <h1 id="usability">Usability Principles</h1>
+                    <p>This website has three major components: navigation bar, cart, and product grid. With these components, I incoporate the following design principles in the website.
+                        <ol>
+                            <li><b>Minimalist design</b> — Only relevant information and components are included to prevent confusion from the novice user.</li>
+                            <li><b>Flexibility</b> — A user can filter and sort items shown in the product grid.</li>
+                            <li><b>Help users recognize and recover from errors</b> — The amount of each item in the cart is displayed to prevent users from buying incorrect amount. To recover from errors, users can add one unit, remove one unit, and delete
+                                all item units from the cart.</li>
+                            <li><b>Error prevention</b> — When there is only one unit of item left in the cart, the user cannot remove the item by clicking minus sign. They must click Delete. This is to prevent removing too many item units from the cart.
+                            </li>
+                            <li><b>Visibility of system status</b> — When users apply two filters yet no items are in both categories, the following text will be shown: <i>No items found in the selected
+                                category and price range.</i> Similarly, when the website is fetching API data,
+                                <i>Loading</i> will be shown.</li>
+                            <li><b>Consistency and standards</b> — All card of sale item have the same pattern.</li>
+                        </ol>
+                </div>
+                <div class="project-section">
+                    <h1 id="links">React App Website</h1>
+                    <p>Below are the links to the deployed website and the Github Repo. For more information about the architecture of this React App website, please visit README in the Github Repo.</p>
+                    <div class="text-center"> <a href="https://safe-brushlands-69150.herokuapp.com/ " class="btn btn-info btn-lg" role="button " target="_blank " aria-pressed="true ">Link to
+                            the website</a>
+                        <a href="https://github.com/tprasertsup/cs1300-development-website" class="btn btn-secondary btn-lg " role="button " target="_blank " aria-pressed="true ">Link
+                            to
+                            the Github Repo</a>
                     </div>
-                    <div class="project-section">
-                        <h1 id="usability">Usability Principles</h1>
-                        <p>This website has three major components: navigation bar, cart, and product grid. With these components, I incoporate the following design principles in the website.
-                            <ol>
-                                <li><b>Minimalist design</b> — Only relevant information and components are included to prevent confusion from the novice user.</li>
-                                <li><b>Flexibility</b> — A user can filter and sort items shown in the product grid.</li>
-                                <li><b>Help users recognize and recover from errors</b> — The amount of each item in the cart is displayed to prevent users from buying incorrect amount. To recover from errors, users can add one unit, remove one unit, and
-                                    delete all item units from the cart.</li>
-                                <li><b>Error prevention</b> — When there is only one unit of item left in the cart, the user cannot remove the item by clicking minus sign. They must click Delete. This is to prevent removing too many item units from the cart.
-                                </li>
-                                <li><b>Visibility of system status</b> — When users apply two filters yet no items are in both categories, the following text will be shown: <i>No items found in the selected
-                                    category and price range.</i> Similarly, when the website is fetching API data,
-                                    <i>Loading</i> will be shown.</li>
-                                <li><b>Consistency and standards</b> — All card of sale item have the same pattern.</li>
-                            </ol>
-                    </div>
-                    <div class="project-section">
-                        <h1 id="links">React App Website</h1>
-                        <p>Below are the links to the deployed website and the Github Repo. For more information about the architecture of this React App website, please visit README in the Github Repo.</p>
-                        <div class="text-center"> <a href="https://safe-brushlands-69150.herokuapp.com/ " class="btn btn-info btn-lg" role="button " target="_blank " aria-pressed="true ">Link to
-                                the website</a>
-                            <a href="https://github.com/tprasertsup/cs1300-development-website" class="btn btn-secondary btn-lg " role="button " target="_blank " aria-pressed="true ">Link to
-                                the Github Repo</a>
-                        </div>
 
-                    </div>
                 </div>
             </div>
             <div class=".d-none .d-lg-block col-lg-2">
@@ -110,7 +111,7 @@
 
 
     <!-- Footer -->
-    <nav class="navbar navbar-expand navbar-light bg-white pt-5 pb-5">
+    <nav class="navbar navbar-expand navbar-light bg-transparent pt-5 pb-5">
         <div class=" navbar-collapse mb-0 align-middle" id="navbarSupportedContent">
             <ul class="navbar-nav m-auto ">
                 <li class="nav-item ">
