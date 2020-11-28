@@ -29,6 +29,12 @@ h5,
     line-height: 1.8 !important;
 }
 
+a,
+a:hover,
+a:active {
+    text-decoration: none !important;
+}
+
 .project-title {
     font-size: 4rem;
     font-weight: 400;
@@ -249,4 +255,19 @@ h5,
     animation-timing-function: linear;
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
+}
+
+.next-project {
+    /* color: gray; */
+    vertical-align: center;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.next-project .fa {
+    font-weight: 300;
+}
+
+.next-project-text {
+    font-size: 30px;
 }
