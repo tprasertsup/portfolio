@@ -257,17 +257,18 @@ a:active {
     animation-iteration-count: 1;
 }
 
-.next-project {
-    /* color: gray; */
-    vertical-align: center;
-    margin-left: auto;
-    margin-right: 0;
-}
-
-.next-project .fa {
-    font-weight: 300;
-}
-
 .next-project-text {
-    font-size: 30px;
+    font-size: 3rem;
+    font-family: 'Montserrat', serif;
+}
+
+.next-project-text:hover>.hvr-push {
+    -webkit-animation-name: hvr-push;
+    animation-name: hvr-push;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
 }
